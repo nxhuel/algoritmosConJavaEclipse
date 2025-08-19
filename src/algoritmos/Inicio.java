@@ -1,12 +1,12 @@
 package algoritmos;
 
-import java.util.Iterator;
-
 public class Inicio {
+
+	@SuppressWarnings("unused")
 	private static String sayHello() {
 		return "Hola Mundo desde Linux";
 	}
-	
+
 	public static boolean PrimeNumbers(int num) {
 		boolean esPrimo;
 		if (num <= 1) {
@@ -22,6 +22,5 @@ public class Inicio {
 		}
 		return esPrimo;
 	}
-	
-}
 
+}
