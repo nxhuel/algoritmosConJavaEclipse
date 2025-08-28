@@ -3,7 +3,6 @@ package romanToInteger;
 import java.util.HashMap;
 
 public class RomanToInteger {
-
 	public int romanToInt(String s) {
 		HashMap<Character, Integer> numsRomanos = new HashMap<>();
 		numsRomanos.put('I', 1);
