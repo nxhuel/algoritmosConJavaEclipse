@@ -1,3 +1,4 @@
+```
 Entrada
 	s <- "IV"
 
@@ -30,3 +31,5 @@ Proceso
 	
 Salida
 	resultado_final <- 4
+```
+
