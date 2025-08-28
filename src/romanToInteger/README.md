@@ -30,6 +30,6 @@ Proceso
 	Retorna resultado_final
 	
 Salida
-
 	resultado_final <- 4
 ```
+
