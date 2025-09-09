@@ -1,7 +1,7 @@
 package longestCommonPrefix;
 
-public class Prefix {
 
+public class Prefix {
 	public String longestCommonPrefix(String[] strs) {
 		if (strs.length == 0) {
 			return "";

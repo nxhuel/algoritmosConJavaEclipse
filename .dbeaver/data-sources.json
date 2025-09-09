@@ -1,7 +1,7 @@
 {
 	"folders": {},
 	"connections": {
-		"mysql8-19917a76101-73c510ee10344f18": {
+		"mysql8-199294e39ec-13334ebccaa1a744": {
 			"provider": "mysql",
 			"driver": "mysql8",
 			"name": "localhost",
@@ -11,20 +11,28 @@
 				"port": "3306",
 				"url": "jdbc:mysql://localhost:3306/",
 				"configurationType": "MANUAL",
+				"home": "mysql_client",
 				"type": "dev",
 				"closeIdleConnection": true,
+				"config-profile": "root",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
+					"allowPublicKeyRetrieval": "true",
+					"useSSL": "false"
+				},
 				"provider-properties": {
 					"@dbeaver-show-all-dbs@": "true"
 				},
 				"auth-model": "native"
-			},
-			"filters": [
-				{
-					"type": "org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog",
-					"enabled": true,
-					"include": ["restfull_api"]
-				}
-			]
+			}
+		}
+	},
+	"network-profiles": {
+		"root": {
+			"name": "root",
+			"handlers": {}
 		}
 	},
 	"connection-types": {

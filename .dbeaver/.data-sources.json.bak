@@ -17,9 +17,16 @@
 					"@dbeaver-show-all-dbs@": "true"
 				},
 				"auth-model": "native"
-			}
+			},
+			"filters": [
+				{
+					"type": "org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog",
+					"enabled": true,
+					"include": ["restfull_api"]
+				}
+			]
 		},
-		"mysql8-19917dbda22-6e5337b3a8f69fa8": {
+		"mysql8-199294dbd8e-1a7b3651df6c16a6": {
 			"provider": "mysql",
 			"driver": "mysql8",
 			"name": "localhost 2",
@@ -31,13 +38,6 @@
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
-				"properties": {
-					"connectTimeout": "20000",
-					"rewriteBatchedStatements": "true",
-					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
-					"allowPublicKeyRetrieval": "true",
-					"useSSL": "false"
-				},
 				"provider-properties": {
 					"@dbeaver-show-all-dbs@": "true"
 				},
